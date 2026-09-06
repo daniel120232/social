@@ -1,0 +1,20 @@
+# 환경 변수 파일 (보안 필수)
+.env
+*.env.local
+
+# 의존성 패키지
+node_modules/
+/vendor/
+
+# 빌드 결과물
+dist/
+build/
+*.pyc
+
+# 운영체제 및 로그 파일
+.DS_Store
+*.log
+*.txt
+
+/mp3/
+/pdf/
